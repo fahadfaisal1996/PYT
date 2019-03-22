@@ -31,7 +31,6 @@ public class MinimumUniqueArraySum {
                 }
                 counter++;
             }
-
             sort(array, arraySize);
 
             System.out.println("Minimum unique array sum : " + getMinimumUniqueSum(array, arraySize));
