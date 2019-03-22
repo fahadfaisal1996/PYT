@@ -57,7 +57,7 @@ public class SuperStack {
                 inc(Integer.parseInt(operations[i].split(" ")[1]), Integer.parseInt(operations[i].split(" ")[2]));
                 System.out.println(array[top]);
             } else {
-                throw new RuntimeException("Not a valid operation");
+                throw new RuntimeException("Not a valid stack operation");
             }
 
         }
