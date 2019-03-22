@@ -20,12 +20,11 @@ public class SuperStack {
             System.out.println("Enter the number of stack operations : ");
             noOfOperations = Integer.parseInt(reader.readLine());
 
+            System.out.println("Enter the operations : ");
             while (counter < noOfOperations) {
                 operations[counter++] = reader.readLine();
             }
-
-            new SuperStack();
-            SuperStack.superStack(operations, noOfOperations);
+            superStack(operations, noOfOperations);
         } catch (Exception e) {
             System.out.println("Exception : " + e);
         }
